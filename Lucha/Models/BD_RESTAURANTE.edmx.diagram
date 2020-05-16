@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="aee1da7911484b569afc17f6700a4392" Name="Diagram1">
+        <EntityTypeShape EntityType="RestauranteModel.DBS" Width="1.5" PointX="10" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestauranteModel.DetalleBoleta" Width="1.5" PointX="11" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestauranteModel.Groups" Width="1.5" PointX="5.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestauranteModel.ModoDePago" Width="1.5" PointX="7.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestauranteModel.Pedido" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestauranteModel.PPS" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestauranteModel.Producto" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestauranteModel.Productos_Pedidos" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestauranteModel.PS" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestauranteModel.TipoEmpleado" Width="1.5" PointX="7.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestauranteModel.TipoProducto" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestauranteModel.User_group" Width="1.5" PointX="8" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RestauranteModel.Users" Width="1.5" PointX="5.75" PointY="10.75" IsExpanded="true" />
+        <AssociationConnector Association="RestauranteModel.FK_DBS_ModoDePago" ManuallyRouted="false" />
+        <AssociationConnector Association="RestauranteModel.FK_DBS_PS" ManuallyRouted="false" />
+        <AssociationConnector Association="RestauranteModel.FK_DetalleBoleta_ModoDePago" ManuallyRouted="false" />
+        <AssociationConnector Association="RestauranteModel.FK_DetalleBoleta_Pedido" ManuallyRouted="false" />
+        <AssociationConnector Association="RestauranteModel.FK_USER_GRO_REFERENCE_GROUPS" ManuallyRouted="false" />
+        <AssociationConnector Association="RestauranteModel.FK_Productos_Pedidos_Pedido" ManuallyRouted="false" />
+        <AssociationConnector Association="RestauranteModel.FK_PPS_Producto" ManuallyRouted="false" />
+        <AssociationConnector Association="RestauranteModel.FK_PPS_PS" ManuallyRouted="false" />
+        <AssociationConnector Association="RestauranteModel.FK_PRODUCTO_REFERENCE_PRODUCTO" ManuallyRouted="false" />
+        <AssociationConnector Association="RestauranteModel.FK_Producto_TipoProducto" ManuallyRouted="false" />
+        <AssociationConnector Association="RestauranteModel.FK_USER_GRO_REFERENCE_USERS" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
